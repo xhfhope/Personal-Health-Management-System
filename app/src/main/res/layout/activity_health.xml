@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Health"
+    android:orientation="vertical"
+    android:background="@drawable/background_color"
+    android:padding="20dp">
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+
+    <ImageView
+        android:layout_width="383dp"
+        android:layout_height="117dp"
+        android:src="@drawable/phms_logo"
+        android:transitionName="logo_image" />
+
+    <TextView
+        android:id="@+id/headerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Health"
+        android:textSize="18sp"
+        android:transitionName="logo_desc" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnAddVital"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10px"
+            android:background="#2CFFFFFF"
+            android:text="Add Vital Sign"
+            android:textColor="#FFFFFF"
+            android:transitionName="button_tran" />
+
+        <Button
+            android:id="@+id/btnViewVitals"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10px"
+            android:background="#2CFFFFFF"
+            android:text="View Vital Signs"
+            android:textColor="#FFFFFF"
+            android:transitionName="button_tran" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnAddWeight"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10px"
+            android:background="#2CFFFFFF"
+            android:text="Add Today's Weight"
+            android:textColor="#FFFFFF"
+            android:transitionName="button_tran" />
+
+        <Button
+            android:id="@+id/btnViewWeights"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10px"
+            android:background="#2CFFFFFF"
+            android:text="View Weight History"
+            android:textColor="#FFFFFF"
+            android:transitionName="button_tran" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnAddMedication"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10px"
+            android:background="#2CFFFFFF"
+            android:text="Add Medication"
+            android:textColor="#FFFFFF"
+            android:transitionName="button_tran" />
+
+        <Button
+            android:id="@+id/btnViewMedications"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10px"
+            android:background="#2CFFFFFF"
+            android:text="View Medications"
+            android:textColor="#FFFFFF"
+            android:transitionName="button_tran" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnAddFood"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10px"
+            android:background="#2CFFFFFF"
+            android:text="Add Food Log"
+            android:textColor="#FFFFFF"
+            android:transitionName="button_tran" />
+
+        <Button
+            android:id="@+id/btnViewFood"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10px"
+            android:background="#2CFFFFFF"
+            android:text="View Food Logs"
+            android:textColor="#FFFFFF"
+            android:transitionName="button_tran" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnAddCheckup"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10px"
+            android:background="#2CFFFFFF"
+            android:text="Add Check-up"
+            android:textColor="#FFFFFF"
+            android:transitionName="button_tran" />
+
+        <Button
+            android:id="@+id/btnViewCheckup"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10px"
+            android:background="#2CFFFFFF"
+            android:text="View Check-ups"
+            android:textColor="#FFFFFF"
+            android:transitionName="button_tran" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:background="#2CFFFFFF"
+            android:text="Back"
+            android:layout_gravity="bottom"
+            android:textColor="#FFFFFF"
+            android:transitionName="button_tran" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

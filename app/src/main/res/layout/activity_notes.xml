@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Notes"
+    android:orientation="vertical"
+    android:background="@drawable/background_color"
+    android:padding="20dp">
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+
+    <ImageView
+        android:layout_width="383dp"
+        android:layout_height="117dp"
+        android:src="@drawable/phms_logo"
+        android:transitionName="logo_image" />
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Notes"
+        android:textSize="18sp"
+        android:transitionName="logo_desc" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="424dp"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"></ListView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="#2CFFFFFF"
+            android:text="Cancel"
+            android:textColor="#FFFFFF"
+            android:transitionName="button_tran" />
+
+        <Button
+            android:id="@+id/btnNewNote"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="#2CFFFFFF"
+            android:text="New Note"
+            android:textColor="#FFFFFF"
+            android:transitionName="button_tran" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

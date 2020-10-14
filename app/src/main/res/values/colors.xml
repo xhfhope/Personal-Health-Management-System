@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#ffddd9</color>
+    <color name="mtrl_textinput_default_box_stroke_color">#ffb0a8</color>
+    <color name="calendarBG">#B0FC291A</color>
+    <color name="calendarBG2">#7AF31808</color>
+</resources>

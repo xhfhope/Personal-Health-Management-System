@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "385720521289",
+    "firebase_url": "https://phms-72c79.firebaseio.com",
+    "project_id": "phms-72c79",
+    "storage_bucket": "phms-72c79.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385720521289:android:b479b2f3ca69a5bc22e598",
+        "android_client_info": {
+          "package_name": "com.example.phms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385720521289-b1158eqhukfel65e7r4sbgl30u8ep132.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.phms",
+            "certificate_hash": "f3bf6ab301ea0bea8e8684c23852c1aec4c33a3f"
+          }
+        },
+        {
+          "client_id": "385720521289-930rjgiiq1kkt2uavfaok9u26436ckud.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9Pph1a9TWkhiVC-Q2CsojCSOy7hvINck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385720521289-930rjgiiq1kkt2uavfaok9u26436ckud.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
